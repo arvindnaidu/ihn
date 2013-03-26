@@ -1,0 +1,2 @@
+class AvailableRoom < ActiveRecord::Base
+end

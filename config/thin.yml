@@ -1,0 +1,15 @@
+---
+chdir: /Users/apparao/Documents/Ihn
+environment: production
+timeout: 30
+log: /Users/apparao/Documents/Ihn/log/thin.log
+pid: tmp/pids/thin.pid
+max_conns: 1024
+max_persistent_conns: 100
+require: []
+wait: 30
+servers: 2
+socket: /Users/apparao/Documents/Ihn/tmp/sockets/thin.sock
+user: apparao
+group: admin
+daemonize: true

@@ -1,0 +1,164 @@
+<div class="content-left">
+  <div class="row1">
+    <h1 class="title">Welcome To <span>XXXXX</span></h1>
+    <p><strong>Lorem Ipsum is simply dummy text</strong> of the printing
+      and typesetting industry. Lorem Ipsum has been the indusstandard dummy
+      text ever since the 1500s, when an unknown printer took a galley of
+      type and scrambleto make a type specimen book.</p>
+    <p>&nbsp;</p>
+    <p>It has survived not only five centuries, but also the leap into
+      electronic typesetting, remaining essentially unchanged. It was
+      popularised in the 1960s with the release </p>
+    <ul class="list1">
+      <li>of Letraset sheets containing</li>
+      <li>Lorem Ipsum passages,</li>
+      <li>and more recently with desktop</li>
+    </ul>
+    <p>&nbsp;<br>
+      <strong>Lorem Ipsum is simply dummy text</strong> of the printing
+      and typesetting industry. Lorem Ipsum has been the industry's standard
+      dummy text ever since the 1500s, when an unknown printer took a galley
+      of type and scrambled it.<br>
+      <br>
+    </p>
+  </div>  
+  <div class="row1">
+    <h1 class="title"><span style="color: #137DC0;">Find what's happening right now..</span></h1>
+    <hr/>
+    <div class="news_section">
+      <div class="main_news_image"><a href="#"><img src="/assets/image_01.jpg" alt="image 3" width="60px" height="60px"/></a></div>
+      <div class="main_feed_content">
+        <div class="news_title">Rose Robinson</div>
+        <p>Great beginning, I am very pleased with what I have seen about this program so far. I look forward to learning more, and generating a good income. <br><a class="more-news-a">2 minutes ago</a></p>
+      </div>
+    </div>  
+    <div class="margin_bottom_10"></div><hr/>
+    <div class="news_section">
+      <div class="main_news_image"><a href="#"><img src="/assets/image_04.jpg" alt="image 3" width="60px" height="60px"></a></div>
+      <div class="main_feed_content">
+        <div class="news_title">Harold Paul-Emile</div>
+        <p>Wow! I love this site, it seems so powerful. I'm looking forward to learning and earning w/this system. Tks Phill & Team! <br><a class="more-news-a">5 minutes ago</a></p>
+      </div>
+    </div>      
+    <div class="margin_bottom_10"></div><hr/>
+    <div class="news_section">
+      <div class="main_news_image"><a href="#"><img src="/assets/image_06.jpg" alt="image 3" width="60px" height="60px"></a></div>
+      <div class="main_feed_content">
+        <div class="news_title">Harold Paul-Emile</div>
+        <p>Wow! I love this site, it seems so powerful. I'm looking forward to learning and earning w/this system. Tks Phill & Team! <br><a class="more-news-a">6 minutes ago</a></p>
+      </div>
+    </div>      
+    <div class="margin_bottom_10"></div><hr/>
+    <div class="news_section">
+      <div class="main_news_image"><a href="#"><img src="/assets/image_05.jpg" alt="image 3" width="60px" height="60px"></a></div>
+      <div class="main_feed_content">
+        <div class="news_title">Janice Nagao</div>
+        <p>Wow! I love this site, it seems so powerful. I'm looking forward to learning and earning w/this system. Tks Phill & Team! <br><a class="more-news-a">6 minutes ago</a></p>
+      </div>
+    </div>      
+    <div class="margin_bottom_10"></div><hr/>
+    <div class="news_section">
+      <div class="main_news_image"><a href="#"><img src="/assets/image_01.jpg" alt="image 3" width="60px" height="60px"></a></div>
+      <div class="main_feed_content">
+        <div class="news_title">Rose Robinson</div>
+        <p>Wow! I love this site, it seems so powerful. I'm looking forward to learning and earning w/this system. Tks Phill & Team! <br><a class="more-news-a">10 minutes ago</a></p>
+      </div>
+    </div>      
+    <div class="margin_bottom_10"></div><hr/>
+    <div class="news_section">
+      <div class="main_news_image"><a href="#"><img src="/assets/image_03.jpg" alt="image 3" width="60px" height="60px"></a></div>
+      <div class="main_feed_content">
+        <div class="news_title">George Glumac</div>
+        <p>Wow! I love this site, it seems so powerful. I'm looking forward to learning and earning w/this system. Tks Phill & Team! <br><a class="more-news-a">15 minutes ago</a></p>
+      </div>
+    </div>      
+    <div class="margin_bottom_10"></div><hr/>
+    <div class="news_section">
+      <div class="main_news_image"><a href="#"><img src="/assets/image_06.jpg" alt="image 3" width="60px" height="60px"></a></div>
+      <div class="main_feed_content">
+        <div class="news_title">Harold Paul-Emile</div>
+        <p>Wow! I love this site, it seems so powerful. I'm looking forward to learning and earning w/this system. Tks Phill & Team! <br><a class="more-news-a">20 minutes ago</a></p>
+      </div>
+    </div>      
+    <div class="margin_bottom_10"></div><hr/>
+    <div class="news_section">
+      <div class="main_news_image"><a href="#"><img src="/assets/image_05.jpg" alt="image 3" width="60px" height="60px"></a></div>
+      <div class="main_feed_content">
+        <div class="news_title">Janice Nagao</div>
+        <p>Wow! I love this site, it seems so powerful. I'm looking forward to learning and earning w/this system. Tks Phill & Team! <br><a class="more-news-a">21 minutes ago</a></p>
+      </div>
+    </div>      
+    <div class="margin_bottom_10"></div><hr/>
+</div>
+</div>
+
+<div class="content-right">
+  <div class="mainmenu">
+    <h2 class="sidebar1">Join XXXXX</h2>
+    <div class="text_box">
+      <div class="login-title">Customer login</div>
+      <%= form_for "user_login", :url => login_users_path, :html => {:method => :post} do %>
+      <div class="login_form_row">
+        <label class="login_label">Username:</label><input type="text" name="form[username]" class="login_input">
+      </div>      
+      <div class="login_form_row">
+        <label class="login_label">Password:</label><input type="password" name="form[password]" class="login_input">
+      </div>                                     
+      <input type="image" src="/assets/login.gif" class="login">
+      <% end %>
+    </div>
+    <div class="signup-note">Don't have an account yet! &nbsp;&nbsp;<a href="/new">Signup</a></div>
+  </div>
+  <div class="contact">
+    <h2 class="sidebar2">News Feed</h2>
+    <div class="content_right_section">            
+      <div class="header_02">What customers are saying..</div>
+      <div class="news_section">
+        <div class="news_image"><a href="#"><img src="/assets/image_03.jpg" alt="image 3" width="80px" height="80px"></a></div>
+        <div class="news_content">
+          <div class="news_title">George Glumac</div>
+          <p>I have checked out at least a dozen real estate investing systems in the past 16 months and spent a ton of money looking for integrity... 
+	        <br><a href="#" class="more-news-a">Details</a></p>
+        </div>
+      </div>      
+      <div class="margin_bottom_20"></div>
+      <div class="news_section">
+        <div class="news_image"><a href="#"><img src="/assets/image_04.jpg" alt="image 3" width="80px" height="80px"></a></div>
+        <div class="news_content">
+          <div class="news_title">Harold Paul-Emile</div>
+          <p>Looks like a solid program and network database for matching of buyers and sellers and very uniquely being able to work with other investors...
+	        <br><a href="#" class="more-news-a">Details</a></p>
+        </div>
+      </div>      
+      <div class="margin_bottom_20"></div>
+      <div class="news_section">
+        <div class="news_image"><a href="#"><img src="/assets/image_01.jpg" alt="image 3" width="80px" height="80px"></a></div>
+        <div class="news_content">
+          <div class="news_title">Rose Robinson</div>
+          <p>Wow! I love this site, it seems so powerful. I'm looking forward to learning and earning w/this system. Tks Phill & Team!
+	        <br><a href="#" class="more-news-a">Details</a></p>
+        </div>
+      </div>      
+      <div class="margin_bottom_20"></div>
+      <div class="news_section">
+        <div class="news_image"><a href="#"><img src="/assets/image_06.jpg" alt="image 3" width="80px" height="80px"></a></div>
+        <div class="news_content">
+          <div class="news_title">Harold Paul-Emile</div>
+          <p>Looks like a solid program and network database for matching of buyers and sellers and very uniquely being able to work with other investors...
+	        <br><a href="#" class="more-news-a">Details</a></p>
+        </div>
+      </div>      
+      <div class="margin_bottom_20"></div>
+      <div class="news_section">
+        <div class="news_image"><a href="#"><img src="/assets/image_07.jpg" alt="image 3" width="80px" height="80px"></a></div>
+        <div class="news_content">
+          <div class="news_title">Joe Riddell</div>
+          <p>Looks like a solid program and network database for matching of buyers and sellers and very uniquely being able to work with other investors...
+	        <br><a href="#" class="more-news-a">Details</a></p>
+        </div>
+      </div>      
+      <div class="margin_bottom_20"></div>
+    </div>    
+  </div>
+</div>
+

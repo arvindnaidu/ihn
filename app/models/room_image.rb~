@@ -1,0 +1,5 @@
+class RoomImage < ActiveRecord::Base
+      belongs_to :available_room
+      attr_accessible :avatar
+      has_attached_file :avatar, :styles => { :medium => "300x300>", :thumb => "100x100>" }, :url => "/:class/:attachment/:id/:style.:extension", :default_url => "/images/default_room_image.png", :default_style => :thumb
+end

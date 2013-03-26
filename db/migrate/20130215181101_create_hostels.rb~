@@ -1,0 +1,24 @@
+class CreateHostels < ActiveRecord::Migration
+  def self.up
+    create_table :hostels do |t|
+      t.integer :user_id
+      t.integer :region_id
+      t.string :name
+      t.string :address
+      t.string :email
+      t.string :lat
+      t.string :lang
+      t.boolean :active
+      t.string :contact_one
+      t.string :contact_one
+      t.string :contact_two
+      t.string :contact_three
+
+      t.timestamps
+    end
+  end
+
+  def self.down
+    drop_table :hostels
+  end
+end

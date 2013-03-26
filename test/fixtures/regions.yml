@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  district_id: 1
+  state_id: 1
+  name: MyString
+  pincode: MyString
+  verified: 
+
+two:
+  district_id: 1
+  state_id: 1
+  name: MyString
+  pincode: MyString
+  verified: 

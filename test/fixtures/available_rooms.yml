@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  hostel_id: 1
+  description: MyString
+  vacancies: 1
+  capacity: 1
+  type: 1
+  rent: 1
+
+two:
+  hostel_id: 1
+  description: MyString
+  vacancies: 1
+  capacity: 1
+  type: 1
+  rent: 1

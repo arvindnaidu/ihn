@@ -1,0 +1,6 @@
+<% unless @user.nil?  %>
+<%= render :partial => "dashboard" %>
+<% else %>
+<%= render :partial => "index" %>
+<% end %>
+

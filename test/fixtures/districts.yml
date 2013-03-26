@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  state_id: 1
+  name: MyString
+  verified: false
+  valid: false
+
+two:
+  state_id: 1
+  name: MyString
+  verified: false
+  valid: false

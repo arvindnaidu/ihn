@@ -1,0 +1,15 @@
+class CreateHostelTypes < ActiveRecord::Migration
+  def self.up
+    create_table :hostel_types do |t|
+      t.string :name
+      t.string :code
+      t.string :permalink
+
+      t.timestamps
+    end
+  end
+
+  def self.down
+    drop_table :hostel_types
+  end
+end

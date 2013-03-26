@@ -1,0 +1,151 @@
+<div class="content-left">  
+  <div class="row1">    
+    <h1 class="title">Welcome To <span>India Hostels Network</span></h1>
+    <p><strong>Lorem Ipsum is simply dummy text</strong> of the printing
+      and typesetting industry. Lorem Ipsum has been the indusstandard dummy
+      text ever since the 1500s, when an unknown printer took a galley of
+      type and scrambleto make a type specimen book.</p>
+    <%= form_for "user_form", :url => accounts_path, :html => {:method => :post} do %>
+      <div id="bluebox" class="nice" style="margin-left: 80px;margin-top: 63px;margin-bottom:16px;">
+	<div class="corner"></div><div class="tag"></div>
+	<div class="text-with-tag"><strong>Fill out the information below to submit your property to our network of investors and their buyers</strong></div>
+	
+	<div class="form-row">
+	  <label for="address">First Name: <span style="color:red"> *</span></label>
+	  <input name="form[first_name]" size="30" type="text">
+	</div>
+	
+	<div class="form-row">
+	  <label for="sqft">Last Name: <span style="color:red"> *</span></label>
+	  <input name="form[last_name]" size="30" type="text">
+	</div>
+	
+	<div class="form-row">
+	  <label for="monthly">Username: <span style="color:red"> *</span></label>
+	  <input name="form[username]" size="30" type="text">
+	</div>
+	
+	<div class="form-row">
+	  <label for="phone">Password: <span style="color:red"> *</span></label>
+	  <input name="form[password]" size="30" type="password">
+	</div>
+	
+	<div class="form-row">
+	  <label for="phone2">Contact Number: <span style="color:red"> *</span></label>
+	  <input name="form[contact_one]" size="30" type="text">
+	</div>
+	
+	<div class="form-row">
+	  <input type="checkbox" name="marketing_release"> <span style="padding-right: 10px;"><strong>By checking this box, I give you permission to submit my house to your buyers network to see how many offers I receive.  I understand I am Not obligated to sell my house under this program.</strong></span>
+	</div>
+	<div style="clear:both;"></div>
+	<input type="image" src="/images/btn-go.png" class="go" style="margin-top: 10px;">
+      </div>            
+    <% end %>
+    <p><strong>Lorem Ipsum is simply dummy text</strong> of the printing
+      and typesetting industry. Lorem Ipsum has been the indusstandard dummy
+      text ever since the 1500s, when an unknown printer took a galley of
+      type and scrambleto make a type specimen book.</p>
+    <p>&nbsp;</p>
+    <p>It has survived not only five centuries, but also the leap into
+      electronic typesetting, remaining essentially unchanged. It was
+      popularised in the 1960s with the release </p>
+    <ul class="list1">
+      <li>of Letraset sheets containing</li>
+      <li>Lorem Ipsum passages,</li>
+      <li>and more recently with desktop</li>
+    </ul>
+    <p>&nbsp;<br>
+      <strong>Lorem Ipsum is simply dummy text</strong> of the printing
+      and typesetting industry. Lorem Ipsum has been the industry's standard
+      dummy text ever since the 1500s, when an unknown printer took a galley
+      of type and scrambled it.<br>
+      <br>
+    </p>
+  </div>
+  <div class="row2">
+    <h2 class="subtitle">About <span>Us</span></h2>
+    <p><strong>Lorem Ipsum is simply dummy text</strong> of the printing
+      and typesetting industry. Lorem Ipsum has been the aaaa industry's
+      standard dummy text ever since the 1500s, ass as dwhen an unknasdown
+      printer took a galley of type and scrambled it to make a type
+      speascimen book. <br>
+      It has survived not only five centuries, but also the leap into
+      electronic typesetting.and scrambled it to make a type speascimen book.</p>
+    <p>&nbsp;</p>
+    <p><strong>Lorem Ipsum is simply dummy text</strong> of the printing
+      and typesetting industry. Lorem Ipsum has been the industry's standard
+      dummy text ever since the 1500s, when an unknown printer took a galley
+      of type and scrambled it to make a type specimen book.</p>
+    <p>&nbsp;</p>
+    <p align="right"><a href="#" class="more">Read More</a></p>
+  </div>
+</div>
+<div class="content-right">
+  <div class="mainmenu">
+    <h2 class="sidebar1">Join India Hostels Network</h2>
+    <div class="text_box">
+      <div class="login-title">Customer login</div>
+      <%= form_for "user_login", :url => login_accounts_path, :html => {:method => :post} do %>
+      <div class="login_form_row">
+        <label class="login_label">Username:</label><input type="text" name="form[username]" class="login_input">
+      </div>      
+      <div class="login_form_row">
+        <label class="login_label">Password:</label><input type="password" name="form[password]" class="login_input">
+      </div>                                     
+      <input type="image" src="/images/login.gif" class="login button">
+      <% end %>
+    </div>
+  </div>
+  <div class="contact">
+    <h2 class="sidebar2">News Feed</h2>
+    <div class="content_right_section">            	
+      <div class="header_02">What customers are saying..</div>
+      <div class="news_section">
+        <div class="news_image"><a href="#"><img src="/images/image_03.jpg" alt="image 3" width="80px" height="80px"></a></div>
+        <div class="news_content">
+          <div class="news_title">George Glumac</div>
+          <p>I have checked out at least a dozen real estate investing systems in the past 16 months and spent a ton of money looking for integrity... 
+	    <br><a href="#" class="more-news-a">Details</a></p>
+        </div>
+      </div>      
+      <div class="margin_bottom_20"></div>
+      <div class="news_section">
+        <div class="news_image"><a href="#"><img src="/images/image_04.jpg" alt="image 3" width="80px" height="80px"></a></div>
+        <div class="news_content">
+          <div class="news_title">Harold Paul-Emile</div>
+          <p>Looks like a solid program and network database for matching of buyers and sellers and very uniquely being able to work with other investors...
+	    <br><a href="#" class="more-news-a">Details</a></p>
+        </div>
+      </div>      
+      <div class="margin_bottom_20"></div>
+      <div class="news_section">
+        <div class="news_image"><a href="#"><img src="/images/image_01.jpg" alt="image 3" width="80px" height="80px"></a></div>
+        <div class="news_content">
+          <div class="news_title">Rose Robinson</div>
+          <p>Wow! I love this site, it seems so powerful. I'm looking forward to learning and earning w/this system. Tks Phill & Team!
+	    <br><a href="#" class="more-news-a">Details</a></p>
+        </div>
+      </div>      
+      <div class="margin_bottom_20"></div>
+      <div class="news_section">
+        <div class="news_image"><a href="#"><img src="/images/image_06.jpg" alt="image 3" width="80px" height="80px"></a></div>
+        <div class="news_content">
+          <div class="news_title">Harold Paul-Emile</div>
+          <p>Looks like a solid program and network database for matching of buyers and sellers and very uniquely being able to work with other investors...
+	    <br><a href="#" class="more-news-a">Details</a></p>
+        </div>
+      </div>      
+      <div class="margin_bottom_20"></div>
+      <div class="news_section">
+        <div class="news_image"><a href="#"><img src="/images/image_07.jpg" alt="image 3" width="80px" height="80px"></a></div>
+        <div class="news_content">
+          <div class="news_title">Joe Riddell</div>
+          <p>Looks like a solid program and network database for matching of buyers and sellers and very uniquely being able to work with other investors...
+	    <br><a href="#" class="more-news-a">Details</a></p>
+        </div>
+      </div>      
+      <div class="margin_bottom_20"></div>
+    </div>
+  </div>
+</div>
