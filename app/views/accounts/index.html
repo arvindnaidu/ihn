@@ -116,7 +116,7 @@
       <span style="float:right;font-size:14px;"><a href="/accounts/logout" class="more-news-a">Logout</a></span>
     </div>
     <div class="news_section">
-      <div class="news_image" style="width: 310px;"><a href="#"><img src="<%= @user.profile_image.avatar.url(:medium) unless @user.profile_image.nil? %>" alt="image 3" width="310px" height="200px"></a></div>
+      <div class="news_image" style="width: 310px;"><a href="#"><img src="<%= @user.profile_image.nil? ? "/images/default-image.jpg" : @user.profile_image.avatar.url(:medium)  %>" alt="image 3" width="310px" height="200px"></a></div>
       <div class="news_content" style="width:310px;">
         <!--<div class="more-news-a" style="margin-top:6px;margin-bottom:6px;"><%= "#{@user.first_name} #{@user.last_name}" %></div> /images/image_03.jpg -->
 	<div style="">Your profile is 21% complete</div>
